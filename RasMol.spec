@@ -38,6 +38,11 @@ odtwarzaj╠cy gЁЙboko╤Ф, cylindryczne paЁ╠ki (Dreiding), sfery
 wypeЁniaj╠ce przestrzeЯ (CPK), kulki i paЁ╠ki, bryЁy i splecione
 wstЙgi biomolekularne, etykiety atomСw i kropkowane powierzchnie.
 
+%description -l ru
+RasMol - программа молекулярной графики, используемая для визуализации
+протеинов, нуклеиновых кислот и небольших молекул. Пригодна для
+отображения, обучения и генерации изображений для публикаций.
+
 %prep
 %setup -q -n %{name}
 
