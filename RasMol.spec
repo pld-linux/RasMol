@@ -1,5 +1,8 @@
+# NOTE: new version at ftp://ftp.bernstein-plus-sons.com/software/RasMol_2.7.3.tar.gz
 Summary:	Molecular graphics visualisation tool
 Summary(pl):	Program do graficznej wizualizacji molekuЁ
+Summary(ru):	Инструмент для визуализации молекулярных структур
+Summary(uk):	╤нструмент для в╕зуал╕зац╕╖ молекулярних структур
 Name:		RasMol2
 Version:	2.6.4
 Release:	1
@@ -7,6 +10,7 @@ License:	distributable
 Group:		X11/Applications
 Source0:	ftp://ftp.dcs.ed.ac.uk/pub/rasmol/%{name}.tar.gz
 # Source0-md5:	cada76c4453f8981f0ba324a26ad1fa8
+URL:		http://www.rasmol.org/
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -42,6 +46,12 @@ wstЙgi biomolekularne, etykiety atomСw i kropkowane powierzchnie.
 RasMol - программа молекулярной графики, используемая для визуализации
 протеинов, нуклеиновых кислот и небольших молекул. Пригодна для
 отображения, обучения и генерации изображений для публикаций.
+
+%description -l uk
+RasMol - програма молекулярно╖ граф╕ки, що застосову╓ться для
+в╕зуал╕зац╕╖ проте╖н╕в, нукле╖нових кислот та невеликих молекул.
+Придатна до в╕дображення, навчання та генерац╕╖ зображень для
+публ╕кац╕й.
 
 %prep
 %setup -q -n %{name}
