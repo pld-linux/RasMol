@@ -1,8 +1,8 @@
 # NOTE: new version at ftp://ftp.bernstein-plus-sons.com/software/RasMol_2.7.3.tar.gz
 Summary:	Molecular graphics visualisation tool
-Summary(pl.UTF-8):   Program do graficznej wizualizacji molekuł
-Summary(ru.UTF-8):   Инструмент для визуализации молекулярных структур
-Summary(uk.UTF-8):   Інструмент для візуалізації молекулярних структур
+Summary(pl.UTF-8):	Program do graficznej wizualizacji molekuł
+Summary(ru.UTF-8):	Инструмент для визуализации молекулярных структур
+Summary(uk.UTF-8):	Інструмент для візуалізації молекулярних структур
 Name:		RasMol2
 Version:	2.6.4
 Release:	1
