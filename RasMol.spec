@@ -1,8 +1,8 @@
 # NOTE: new version at ftp://ftp.bernstein-plus-sons.com/software/RasMol_2.7.3.tar.gz
 Summary:	Molecular graphics visualisation tool
-Summary(pl):	Program do graficznej wizualizacji molekuЁ
-Summary(ru):	Инструмент для визуализации молекулярных структур
-Summary(uk):	╤нструмент для в╕зуал╕зац╕╖ молекулярних структур
+Summary(pl.UTF-8):   Program do graficznej wizualizacji molekuе┌
+Summary(ru.UTF-8):   п≤п╫я│я┌я─я┐п╪п╣п╫я┌ п╢п╩я▐ п╡п╦п╥я┐п╟п╩п╦п╥п╟я├п╦п╦ п╪п╬п╩п╣п╨я┐п╩я▐я─п╫я▀я┘ я│я┌я─я┐п╨я┌я┐я─
+Summary(uk.UTF-8):   п├п╫я│я┌я─я┐п╪п╣п╫я┌ п╢п╩я▐ п╡я√п╥я┐п╟п╩я√п╥п╟я├я√я≈ п╪п╬п╩п╣п╨я┐п╩я▐я─п╫п╦я┘ я│я┌я─я┐п╨я┌я┐я─
 Name:		RasMol2
 Version:	2.6.4
 Release:	1
@@ -28,30 +28,30 @@ depth-cued wireframes, 'Dreiding' sticks, spacefilling (CPK) spheres,
 ball and stick, solid and strand biomolecular ribbons, atom labels and
 dot surfaces.
 
-%description -l pl
-RasMol2 to program do grafiki molekularnej maj╠cy sЁu©yФ do
-wizualizacji biaЁek, kwasСw nukleinowych i maЁych cz╠steczek. Celem
-programu jest wy╤wietlanie, nauka i generowanie obrazkСw o jako╤ci
-nadaj╠cej siЙ do publikacji. RasMol dziaЁa na systemach Microsoft
-Windows, Apple Macintosh, UNIX i VMS. Syystemy UNIX i VMS wymagaj╠ 8,
+%description -l pl.UTF-8
+RasMol2 to program do grafiki molekularnej majд┘cy sе┌uе╪yд┤ do
+wizualizacji biaе┌ek, kwasцЁw nukleinowych i maе┌ych czд┘steczek. Celem
+programu jest wyе⌡wietlanie, nauka i generowanie obrazkцЁw o jakoе⌡ci
+nadajд┘cej siд≥ do publikacji. RasMol dziaе┌a na systemach Microsoft
+Windows, Apple Macintosh, UNIX i VMS. Syystemy UNIX i VMS wymagajд┘ 8,
 24 lub 32-bitowego ekranu systemu X Window (w wersji X11R4 lub
-nowszej). Program czyta plik wspСЁrzЙdnych cz╠steczek i interaktywnie
-wy╤wietla cz╠steczkЙ na ekranie w rС©nych schematach kolorСw i
-reprezentacji. Aktualnie dostЙpne reprezentacje obejmuj╠ model drutowy
-odtwarzaj╠cy gЁЙboko╤Ф, cylindryczne paЁ╠ki (Dreiding), sfery
-wypeЁniaj╠ce przestrzeЯ (CPK), kulki i paЁ╠ki, bryЁy i splecione
-wstЙgi biomolekularne, etykiety atomСw i kropkowane powierzchnie.
+nowszej). Program czyta plik wspцЁе┌rzд≥dnych czд┘steczek i interaktywnie
+wyе⌡wietla czд┘steczkд≥ na ekranie w rцЁе╪nych schematach kolorцЁw i
+reprezentacji. Aktualnie dostд≥pne reprezentacje obejmujд┘ model drutowy
+odtwarzajд┘cy gе┌д≥bokoе⌡д┤, cylindryczne paе┌д┘ki (Dreiding), sfery
+wypeе┌niajд┘ce przestrzeе└ (CPK), kulki i paе┌д┘ki, bryе┌y i splecione
+wstд≥gi biomolekularne, etykiety atomцЁw i kropkowane powierzchnie.
 
-%description -l ru
-RasMol - программа молекулярной графики, используемая для визуализации
-протеинов, нуклеиновых кислот и небольших молекул. Пригодна для
-отображения, обучения и генерации изображений для публикаций.
+%description -l ru.UTF-8
+RasMol - п©я─п╬пЁя─п╟п╪п╪п╟ п╪п╬п╩п╣п╨я┐п╩я▐я─п╫п╬п╧ пЁя─п╟я└п╦п╨п╦, п╦я│п©п╬п╩я▄п╥я┐п╣п╪п╟я▐ п╢п╩я▐ п╡п╦п╥я┐п╟п╩п╦п╥п╟я├п╦п╦
+п©я─п╬я┌п╣п╦п╫п╬п╡, п╫я┐п╨п╩п╣п╦п╫п╬п╡я▀я┘ п╨п╦я│п╩п╬я┌ п╦ п╫п╣п╠п╬п╩я▄я┬п╦я┘ п╪п╬п╩п╣п╨я┐п╩. п÷я─п╦пЁп╬п╢п╫п╟ п╢п╩я▐
+п╬я┌п╬п╠я─п╟п╤п╣п╫п╦я▐, п╬п╠я┐я┤п╣п╫п╦я▐ п╦ пЁп╣п╫п╣я─п╟я├п╦п╦ п╦п╥п╬п╠я─п╟п╤п╣п╫п╦п╧ п╢п╩я▐ п©я┐п╠п╩п╦п╨п╟я├п╦п╧.
 
-%description -l uk
-RasMol - програма молекулярно╖ граф╕ки, що застосову╓ться для
-в╕зуал╕зац╕╖ проте╖н╕в, нукле╖нових кислот та невеликих молекул.
-Придатна до в╕дображення, навчання та генерац╕╖ зображень для
-публ╕кац╕й.
+%description -l uk.UTF-8
+RasMol - п©я─п╬пЁя─п╟п╪п╟ п╪п╬п╩п╣п╨я┐п╩я▐я─п╫п╬я≈ пЁя─п╟я└я√п╨п╦, я┴п╬ п╥п╟я│я┌п╬я│п╬п╡я┐я■я┌я▄я│я▐ п╢п╩я▐
+п╡я√п╥я┐п╟п╩я√п╥п╟я├я√я≈ п©я─п╬я┌п╣я≈п╫я√п╡, п╫я┐п╨п╩п╣я≈п╫п╬п╡п╦я┘ п╨п╦я│п╩п╬я┌ я┌п╟ п╫п╣п╡п╣п╩п╦п╨п╦я┘ п╪п╬п╩п╣п╨я┐п╩.
+п÷я─п╦п╢п╟я┌п╫п╟ п╢п╬ п╡я√п╢п╬п╠я─п╟п╤п╣п╫п╫я▐, п╫п╟п╡я┤п╟п╫п╫я▐ я┌п╟ пЁп╣п╫п╣я─п╟я├я√я≈ п╥п╬п╠я─п╟п╤п╣п╫я▄ п╢п╩я▐
+п©я┐п╠п╩я√п╨п╟я├я√п╧.
 
 %prep
 %setup -q -n %{name}
