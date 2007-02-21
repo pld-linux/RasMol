@@ -3,15 +3,16 @@ Summary:	Molecular graphics visualisation tool
 Summary(pl.UTF-8):	Program do graficznej wizualizacji molekuł
 Summary(ru.UTF-8):	Инструмент для визуализации молекулярных структур
 Summary(uk.UTF-8):	Інструмент для візуалізації молекулярних структур
-Name:		RasMol2
-Version:	2.6.4
+Name:		RasMol
+Version:	2.7.2.1.1
 Release:	1
 License:	distributable
 Group:		X11/Applications
-Source0:	ftp://ftp.dcs.ed.ac.uk/pub/rasmol/%{name}.tar.gz
-# Source0-md5:	cada76c4453f8981f0ba324a26ad1fa8
+Source0:	http://www.bernstein-plus-sons.com/software/%{name}_%{version}.tar.gz
+# Source0-md5:	c75f1a30030b9a0ed0b55a076b1f235c
 URL:		http://www.rasmol.org/
-BuildRequires:	XFree86-devel
+BuildRequires:	X11-devel
+Obsoletes:	RasMol2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -54,15 +55,17 @@ RasMol - програма молекулярної графіки, що заст
 публікацій.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}_%{version}
 
 %build
+cd src
 xmkmf
 %{__make} \
 	CDEBUGFLAGS="%{rpmcflags}" \
 	RASMOLDIR=%{_libdir}/rasmol
 
 %install
+cd src
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_mandir}/man1
 
@@ -77,7 +80,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc PROJECTS TODO README Announce ChangeLog doc/{*.ps,rasmol.txt}
+%doc PROJECTS TODO README ChangeLog doc/*
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_mandir}/man1/*
 %{_libdir}/rasmol
